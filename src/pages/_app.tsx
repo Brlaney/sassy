@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+// import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'
 import '@/styles/globals.scss'
 
