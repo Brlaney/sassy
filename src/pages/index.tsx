@@ -13,14 +13,14 @@ export default function Home() {
     { id: 8, shape: 'vc' },
     { id: 9, shape: 'vd' },
     { id: 10, shape: 've' },
-    { id: 11, shape: 'va' }
+    { id: 11, shape: 'va' },
+    { id: 12, shape: 'vb' }
   ]
 
   return (
     <div className={styles.container}>
-      <div />
         {shapes.map(item => (
-          <div key={item.id} />
+          <div key={item.id} className={item.shape} />
         ))}
     </div>
   )
