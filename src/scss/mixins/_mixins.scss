@@ -1,19 +1,5 @@
-@mixin heading-1 {
-  font-size: 4.353rem;
-}
-
-@mixin heading-2 {
-  font-size: 3.221rem;
-}
-
-@mixin heading-3 {
-  font-size: 2.39rem;
-}
-
-@mixin heading-4 {
-  font-size: 1.782rem;
-}
-
-@mixin heading-5 {
-  font-size: 1.275rem;
-}
+@mixin heading-1 { font-size: 4.353rem; }
+@mixin heading-2 { font-size: 3.221rem; }
+@mixin heading-3 { font-size: 2.39rem; }
+@mixin heading-4 { font-size: 1.782rem; }
+@mixin heading-5 { font-size: 1.275rem; }

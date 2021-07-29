@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-// import { ThemeProvider } from 'next-themes'
+import { AnimatePresence } from 'framer-motion'
 import type { AppProps } from 'next/app'
 import '@/styles/globals.scss'
 
@@ -19,7 +19,9 @@ export default function MyApp (props: AppProps) {
         <meta name='description' content='A Next.js app with Sass' />
         <title>Sassy | Next</title>
       </Head>
-      <Component {...pageProps} key={router.route} />
+      <AnimatePresence>
+        <Component {...pageProps} key={router.route} />
+      </AnimatePresence>
     </>
   )
 }
